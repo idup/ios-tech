@@ -3,7 +3,7 @@ date: 2015-12-15 23:51:17
 tags:
 ---
 
-本教程将介绍 Cassini Demo 的开发流程。
+本教程将介绍如何在应用中使用并发编程技术。 相应代码位于[https://github.com/idup/Cassini](https://github.com/idup/Cassini)。
 
 ![](/picture/1-1.png)
 

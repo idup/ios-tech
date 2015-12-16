@@ -3,7 +3,7 @@ date: 2015-12-15 23:51:29
 tags:
 ---
 
-本教程将介绍Bouncer Demo的开发流程。
+本教程将介绍如何在应用中使用手势和传感器技术。 相应代码位于[https://github.com/idup/Bouncer](https://github.com/idup/Bouncer)。
 
 ![](/picture/3-1.png)
 

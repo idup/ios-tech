@@ -3,7 +3,10 @@ date: 2015-12-15 23:51:29
 tags:
 ---
 
-本章实验将介绍动画，并编写一个Dropit应用程序。应用程序界面如下：
+本教程将介绍如何在应用中使用动画技术。 相应代码位于[https://github.com/idup/Dropit](https://github.com/idup/Dropit)。
+
+
+应用程序界面如下：
 
 ![](/picture/4-1.png)
 
