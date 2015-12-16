@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title><![CDATA[iOS技术演示]]></title>
-  
+  <subtitle><![CDATA[使用iOS技术丰富你的APP]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://ios-tech.idup.club/"/>
   <updated>2015-12-16T03:49:50.000Z</updated>
