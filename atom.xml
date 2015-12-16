@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://ios-tech.idup.club/"/>
-  <updated>2015-12-16T03:42:10.000Z</updated>
+  <updated>2015-12-16T03:49:50.000Z</updated>
   <id>http://ios-tech.idup.club/</id>
   
   <author>
@@ -19,29 +19,27 @@
     <link href="http://ios-tech.idup.club/2015/12/16/Location/"/>
     <id>http://ios-tech.idup.club/2015/12/16/Location/</id>
     <published>2015-12-16T03:41:42.000Z</published>
-    <updated>2015-12-16T03:42:10.000Z</updated>
-    <content type="html"><![CDATA[<p>本教程主要介绍CoreLocationDemo的开发流程</p>
-<h5 id="1-新建项目">1.新建项目</h5><p><img src="/picture/6-1.png" alt=""></p>
+    <updated>2015-12-16T03:49:50.000Z</updated>
+    <content type="html"><![CDATA[<p>本教程主要介绍如何在应用中使用定位和地图技术。 相应代码位于 <a href="https://github.com/idup/Location" target="_blank" rel="external">https://github.com/idup/Location</a></p>
+<h4 id="1-新建项目">1.新建项目</h4><p><img src="/picture/6-1.png" alt=""></p>
 <p>新建项目，只需选择普通的SingleViewApplication即可</p>
-<h5 id="2-编辑Storyboard">2.编辑Storyboard</h5><p><img src="/picture/6-2.png" alt=""></p>
+<h4 id="2-编辑Storyboard">2.编辑Storyboard</h4><p><img src="/picture/6-2.png" alt=""></p>
 <p>在Storyboard中拖好页面及其对应控件，具体可参考Demo的storyboard，在本demo中主要由三个页面</p>
 <p>1.一个页面用于显示CoreLocation获得的经纬度信息</p>
 <p>2.一个页面用于显示MapView</p>
 <p>3.还有一个页面用于显示地图的搜索结果</p>
-<h5 id="3-创建ViewController">3.创建ViewController</h5><p><img src="/picture/6-3.png" alt=""></p>
+<h4 id="3-创建ViewController">3.创建ViewController</h4><p><img src="/picture/6-3.png" alt=""></p>
 <p>创建不同的ViewController用以操纵页面控件，并且将代码与相应页面绑定</p>
 <p>1.CoreLocationViewController与显示经纬度信息的页面绑定</p>
 <p>2.MapViewControllerMapView与显示MapView的页面绑定</p>
 <p>3.MapSearchResultTableViewController与显示地图的搜索结果的页面绑定</p>
-<h5 id="4-修改info-plist文件">4.修改info.plist文件</h5><p><img src="/picture/6-4.png" alt=""></p>
+<h4 id="4-修改info-plist文件">4.修改info.plist文件</h4><p><img src="/picture/6-4.png" alt=""></p>
 <p>在info.plist中添加两个字段，分别为NSLocationWhenInUseUsageDescription和 NSLocationAlwaysUsageDescription，并为其填入value，value的信息将会在申请定位权限时显示给用户</p>
-<h5 id="5-ViewController代码编写">5.ViewController代码编写</h5><p>1.CoreLocationViewController中利用CoreLocation获得定位，并将获得的定位信息显示在页面上</p>
+<h4 id="5-ViewController代码编写">5.ViewController代码编写</h4><p>1.CoreLocationViewController中利用CoreLocation获得定位，并将获得的定位信息显示在页面上</p>
 <p>2.MapViewController将用户的当前位置和用户的查找结果大头针显示在MapView</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>本教程主要介绍CoreLocationDemo的开发流程</p>
-<h5 id="1-新建项目">1.新建项目</h5><p><img src="/picture/6-1.png" alt=""></p>
-<p>新建项目，只需选择普通的SingleViewApplicati]]>
+    <![CDATA[<p>本教程主要介绍如何在应用中使用定位和地图技术。 相应代码位于 <a href="https://github.com/idup/Location" target="_blank" rel="external">https://github.com/idup/Location]]>
     </summary>
     
   </entry>
@@ -51,10 +49,11 @@
     <link href="http://ios-tech.idup.club/2015/12/16/Camera/"/>
     <id>http://ios-tech.idup.club/2015/12/16/Camera/</id>
     <published>2015-12-16T03:41:29.000Z</published>
-    <updated>2015-12-16T03:42:34.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="Camera_Demo">Camera Demo</h1><h5 id="1-新建项目">1.新建项目</h5><p>运行 Xcode ,选择 File-&gt;New-&gt;Project… (键盘快捷键是 Command + Shift + N )。 在新出现的窗又中,选择左 侧iOS部分的 Application ,然后选择右 边的 Single View Application (单窗又应用)模板,单击 Next 按钮。 在文本框 Product Name 中填入 Cassini , 在 Language 弹出式菜单中选择 Swift , 在 Devices 选择 iPhone 。确保标 题为 Use Core Data 的选择框未 被选中, 点击下一步按钮,单击创建按钮创建项目。</p>
+    <updated>2015-12-16T03:48:56.000Z</updated>
+    <content type="html"><![CDATA[<p>本教程主要介绍如何在应用中使用摄像头技术。 相应代码位于 <a href="https://github.com/idup/Camera" target="_blank" rel="external">https://github.com/idup/Camera</a></p>
+<h4 id="1-新建项目">1.新建项目</h4><p>运行 Xcode ,选择 File-&gt;New-&gt;Project… (键盘快捷键是 Command + Shift + N )。 在新出现的窗又中,选择左 侧iOS部分的 Application ,然后选择右 边的 Single View Application (单窗又应用)模板,单击 Next 按钮。 在文本框 Product Name 中填入 Cassini , 在 Language 弹出式菜单中选择 Swift , 在 Devices 选择 iPhone 。确保标 题为 Use Core Data 的选择框未 被选中, 点击下一步按钮,单击创建按钮创建项目。</p>
 <p><img src="/picture/5-1.png" alt=""></p>
-<h5 id="2-拖拽界面并采用autolayout布局">2.拖拽界面并采用autolayout布局</h5><p>￼<br><img src="/picture/5-2.png" alt=""></p>
+<h4 id="2-拖拽界面并采用autolayout布局">2.拖拽界面并采用autolayout布局</h4><p>￼<br><img src="/picture/5-2.png" alt=""></p>
 <p><img src="/picture/5-3.png" alt=""></p>
 <p><img src="/picture/5-4.png" alt=""></p>
 <h5 id="3-1实现action_sheet并初始化一个UIImagepicker">3.1实现action sheet并初始化一个UIImagepicker</h5><p>在swift中,action sheet 升级为 view controller,所以在使用的时候要先<br>init一个action sheet 然后添加相对应的action。<br>UIImagepicker 是对camera最简单的操作的API,我们可以相对容易地调 用UIImagepicker来实现平实对image操作的大部分功能,但是,当你有 更高级的自定义需求时,需要采用AVFoundation来更高级地自定义对多 媒体设备的操作。(详情见教程)</p>
@@ -63,7 +62,7 @@
 <p><img src="/picture/5-6.png" alt=""></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h1 id="Camera_Demo">Camera Demo</h1><h5 id="1-新建项目">1.新建项目</h5><p>运行 Xcode ,选择 File-&gt;New-&gt;Project… (键盘快捷键是 Command + Shift + N )。 在新出]]>
+    <![CDATA[<p>本教程主要介绍如何在应用中使用摄像头技术。 相应代码位于 <a href="https://github.com/idup/Camera" target="_blank" rel="external">https://github.com/idup/Camera</a></]]>
     </summary>
     
   </entry>
